@@ -49,7 +49,7 @@ body {
 	z-index: -1;
 	margin: 0;
 	padding: 0;
-	color: #444;
+	color: rgb(172, 171, 171);
 	font-size: 18px;
 	text-decoration: none;
 	text-align: center;
@@ -59,12 +59,11 @@ body {
 }
 
 figure:hover+span {
-	bottom: 5px;
+	bottom: 3px;
     position: relative;
 	opacity: 1;
 }
  
-
 
 
                                                                      /* pop up config abaixo */
