@@ -22,9 +22,11 @@ popup.classList.toggle('active');
 })
 
 
-//https://github.com/kunaal438/image-popup/blob/master/img/img
+// https://github.com/Naph4r/Astronomy_Collection/blob/main/Astronomy_collection/assets/components/imagens_low/img1-low.jpg?raw=true
+
+//https://github.com/kunaal438/image-popup/blob/master/img/img      assets/components/imagens/img${i+1}-low.jpg?raw=true
 const updateImage = (i) => {
-let path = `assets/components/imagens/img${i+1}-low.jpg?raw=true`;
+let path = `https://github.com/Naph4r/Astronomy_Collection/blob/main/Astronomy_collection/assets/components/imagens_low/img${i+1}-low.jpg?raw=true`;
 largeImage.src = path;
 // imageName.innerHTML = path; //
 // imageIndex.innerHTML = `0${i+1}`; //
