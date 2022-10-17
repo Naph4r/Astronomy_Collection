@@ -24,7 +24,7 @@ popup.classList.toggle('active');
 
 //https://github.com/kunaal438/image-popup/blob/master/img/img
 const updateImage = (i) => {
-let path = `assets/components/imagens/img${i+1}.jpg?raw=true`;
+let path = `assets/components/imagens/img${i+1}-low.jpg?raw=true`;
 largeImage.src = path;
 // imageName.innerHTML = path; //
 // imageIndex.innerHTML = `0${i+1}`; //
